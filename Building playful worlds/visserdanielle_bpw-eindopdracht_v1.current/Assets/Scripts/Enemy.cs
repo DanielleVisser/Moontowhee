@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
 
     public GameObject Player;
 
-    public float MobDistanceRun;
+    public float MobDistanceRun = 4.0f;
 
     // Start is called before the first frame update
     void Start()
