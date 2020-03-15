@@ -38,6 +38,8 @@ namespace IL3DN
         private AudioClip landSoundOverride;
         private bool isInSpecialSurface;
 
+
+
         /// <summary>
         /// Initialize the controller
         /// </summary>
@@ -256,6 +258,7 @@ namespace IL3DN
                 landSoundOverride = soundScript.landSound;
                 isInSpecialSurface = true;
             }
+
         }
 
         /// <summary>
