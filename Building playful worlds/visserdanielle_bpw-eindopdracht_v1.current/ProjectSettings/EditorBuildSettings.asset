@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 8ba3bb40192ab5a4496fb5d91cad92bf
+  - enabled: 1
+    path: Assets/Scenes/Artemis.unity
+    guid: 04a1e923a8f7af34bb9dd9e625aaff90
   m_configObjects: {}
