@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlagPole : MonoBehaviour
 {
-    void OnTriggerenter()
+    void OnTriggerEnter()
     {
         //Trigger to win
         GameManager.instance.Win();

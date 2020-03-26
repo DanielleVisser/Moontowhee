@@ -14,4 +14,5 @@ public class MenuControl : MonoBehaviour
     {
         Application.Quit();
     }
+
 }

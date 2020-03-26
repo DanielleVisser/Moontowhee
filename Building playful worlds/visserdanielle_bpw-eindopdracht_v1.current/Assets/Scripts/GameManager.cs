@@ -13,18 +13,16 @@ public class GameManager : MonoBehaviour
     {
         if (instance == null)
             instance = this;
-        else if (instance != null)
-            Destroy(gameObject);
+        else if (instance != null) //! does not...
+            Destroy(gameObject); //no 2 game managers
     }
 
     public void Win()
     {
-        //Winning message
+        //The winning message
         youWinText.SetActive (true);
-        //Dramatic effect
-        Time.timeScale = .5f;
-        Invoke("Reset", resetDelay);
-        //reset the game
+        Time.timeScale = .5f; //Dramatic effect when winning the game
+        //Invoke("Reset", resetDelay); //It resets the game, an not needed but handy.
     }
 
     void Reset()
