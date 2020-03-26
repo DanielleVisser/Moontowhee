@@ -352,7 +352,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.45435518, g: 0.41901034, b: 0.8301887, a: 1}
-  m_Intensity: 1.5
+  m_Intensity: 0.1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -408,13 +408,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299772285}
-  m_LocalRotation: {x: 0.4175824, y: -0.32694831, z: 0.06504748, w: 0.84528023}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.62920135, y: -0.23979579, z: 0.22380902, w: 0.7046369}
+  m_LocalPosition: {x: 10.09, y: 0.89, z: 7.88}
+  m_LocalScale: {x: 0.63515, y: 0.63515, z: 0.63515}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 48.459003, y: -48.726, z: -14.237}
+  m_LocalEulerAnglesHint: {x: 96.25101, y: 148.869, z: 187.201}
 --- !u!1001 &389862746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15517,14 +15517,14 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.8300337, g: 0.7358491, b: 0.9811321, a: 1}
+  m_Color: {r: 0.70354223, g: 0.80784315, b: 0.9622642, a: 1}
   m_Intensity: 1.9
   m_Range: 50
-  m_SpotAngle: 108
+  m_SpotAngle: 134.65686
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -15574,13 +15574,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550846492}
-  m_LocalRotation: {x: -0.099692576, y: -0.39724994, z: 0.028890122, w: 0.91182196}
-  m_LocalPosition: {x: 0.0096, y: 0.0274, z: -0.0178}
+  m_LocalRotation: {x: -0.099283494, y: -0.40982276, z: 0.03026614, w: 0.9062406}
+  m_LocalPosition: {x: 0.0177, y: 0.0127, z: -0.0071}
   m_LocalScale: {x: 0.0005575685, y: 0.0005575685, z: 0.00055756845}
   m_Children: []
   m_Father: {fileID: 1674105320}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -9.14, y: -47.697002, z: 7.6770005}
+  m_LocalEulerAnglesHint: {x: -8.925, y: -49.287003, z: 7.9270005}
 --- !u!1 &1646757846
 GameObject:
   m_ObjectHideFlags: 0

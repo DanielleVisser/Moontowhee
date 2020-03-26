@@ -12,7 +12,6 @@ public class DragObject : MonoBehaviour
     {
         mZCoord = Camera.main.WorldToScreenPoint(gameObject.transform.position).z;
 
-        //Store offset = gameobject world pos - mouse world pos
         mOffset = gameObject.transform.position - GetMouseWorldPos();
     }
 

@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33068fc021dadc04dab6e00e4ff45c00, type: 3}
   m_Name: OceanWaves
   m_EditorClassIdentifier: 
-  _windSpeed: 10
-  _fetch: 500000
-  _waveDirectionVariance: 90
-  _gravityScale: 1
-  _smallWavelengthMultiplier: 1
-  _multiplier: 1
+  _windSpeed: 2.2222223
+  _fetch: 314041
+  _waveDirectionVariance: 98
+  _gravityScale: 3
+  _smallWavelengthMultiplier: 6.1
+  _multiplier: 1.03
   _powerLog:
   - -6
   - -6
