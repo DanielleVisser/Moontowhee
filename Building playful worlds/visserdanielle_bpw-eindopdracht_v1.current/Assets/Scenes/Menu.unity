@@ -10326,12 +10326,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: efc2e106d5a0d144d8d34cf2ef72ee46,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.8
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: efc2e106d5a0d144d8d34cf2ef72ee46,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.7
+      value: -9.8
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: efc2e106d5a0d144d8d34cf2ef72ee46,
         type: 3}
@@ -15375,8 +15375,9 @@ MonoBehaviour:
   m_Text: 'INFO:
 
     Use your left mouse button to pick up and carry the magic flowers.
-    Hold them tight! You will eventually have to use SHIFT + W, A ,S ,D to run for
-    your life while carrying the flowers. Don''t anger the goddesses and...have fun!'
+    Hold them tight! You will eventually have to use SHIFT and  W, A ,S ,D to run
+    for your life, while carrying the flowers. Don''t anger the goddess and...have
+    fun!'
 --- !u!222 &1432441339
 CanvasRenderer:
   m_ObjectHideFlags: 0
