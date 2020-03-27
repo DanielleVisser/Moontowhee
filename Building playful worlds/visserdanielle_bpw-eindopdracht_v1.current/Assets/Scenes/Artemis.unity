@@ -657,7 +657,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.078431375}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.17647058, g: 0.5826693, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -739,6 +739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3eb0e888ef9c8c4e93c145fc78fa186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cursorArrow: {fileID: 2800000, guid: 541f7cd88b6e7884387165c40fc559fc, type: 3}
 --- !u!1001 &40604861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3044,13 +3045,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 208499612}
-  m_LocalRotation: {x: 0.7130414, y: -0.03166731, z: 0.031203289, w: 0.69971097}
-  m_LocalPosition: {x: -0.0027, y: 0.002, z: 0.0263}
+  m_LocalRotation: {x: 0.7127235, y: -0.029038219, z: 0.016580662, w: 0.70064753}
+  m_LocalPosition: {x: -0.0011000197, y: 0.001999998, z: 0.0264001}
   m_LocalScale: {x: 0.013517207, y: 0.002453608, z: 0.008160941}
   m_Children: []
   m_Father: {fileID: 1280020845}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 91.08099, y: -0.5539856, z: 4.541992}
+  m_LocalEulerAnglesHint: {x: 91.406006, y: 44.041992, z: 47.73999}
 --- !u!114 &208499614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28923,7 +28924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.010056469, g: 0, b: 0.3962264, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -92626,7 +92627,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 7d5c3e737f387c64faa59a22135ac3ca,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 408.3
+      value: 406.9
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 7d5c3e737f387c64faa59a22135ac3ca,
         type: 3}
