@@ -349,7 +349,7 @@ Light:
   m_GameObject: {fileID: 299772285}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 1
+  m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.45435518, g: 0.41901034, b: 0.8301887, a: 1}
   m_Intensity: 0.1
@@ -385,13 +385,13 @@ Light:
     m_UseCullingMatrixOverride: 0
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
-  m_Flare: {fileID: 12100000, guid: 9bdb18c49d114cb4300035184241aa39, type: 2}
+  m_Flare: {fileID: 0}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -526,6 +526,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Artemis model
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 7f2e6b189fe414d4394b57a495428f98,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f2e6b189fe414d4394b57a495428f98, type: 3}
@@ -5521,6 +5526,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cf0e4af86f8d5e4f96847ad61d92282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &835561972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 7f2e6b189fe414d4394b57a495428f98,
+    type: 3}
+  m_PrefabInstance: {fileID: 389862746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &835561973
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 835561972}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
+  m_Size: 1
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers: []
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers: []
+  m_Enabled: 1
 --- !u!1 &888653477
 GameObject:
   m_ObjectHideFlags: 0
